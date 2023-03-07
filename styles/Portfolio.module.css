@@ -1,0 +1,47 @@
+.slider {
+    width: 307px;
+    height: 440px;
+    perspective: 1000px;
+    margin: 0 auto;
+    border: 7px #585858;
+    border-style: ridge;
+}
+
+.scrolltop {
+    background-image: url(../public/images/img-top.png);
+    background-size: cover;
+}
+
+
+@media(max-width: 660px) {
+    .slider {
+        width: 297px;
+        height: 400px;
+        perspective: 1000px;
+        margin: 0 auto;
+        border: 7px #585858;
+        border-style: ridge;
+    }
+}
+
+@media(max-width: 600px) {
+    .slider {
+        width: 267px;
+        height: 380px;
+        perspective: 1000px;
+        margin: 0 auto;
+        border: 7px #585858;
+        border-style: ridge;
+    }
+}
+
+@media(max-width: 350px) {
+    .slider {
+        width: 237px;
+        height: 350px;
+        perspective: 1000px;
+        margin: 0 auto;
+        border: 7px #585858;
+        border-style: ridge;
+    }
+}

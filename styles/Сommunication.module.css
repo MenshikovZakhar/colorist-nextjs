@@ -1,0 +1,664 @@
+.communication {
+    background-color: #140800;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
+}
+
+.communication__title {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    color: #140800;
+}
+
+.communication__phone {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 20px;
+    margin: 0;
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.communication_title {
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 700px;
+    padding: 10px 0;
+    background-image: url(../public/images/bbb.png);
+    background-size: cover;
+}
+
+.communication__description {
+    max-width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../public/images/xxx.jpg);
+    background-size: 1400px 310px;
+    border: 7px #585858;
+    border-style: ridge;
+    padding-top: 10px;
+}
+
+.iqons__communication {
+    margin-top: 40px;
+    padding-left: 470px;
+}
+
+.communication__logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.communication__logo:hover {
+    width: 60px;
+}
+
+@media(max-width: 1500px) {
+    .communication__description {
+        max-width: 1300px;
+        background-size: 1300px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 430px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 300px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 20px;
+    }
+
+}
+
+@media(max-width: 1400px) {
+    .communication__description {
+        max-width: 1250px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 70px;
+    }
+}
+
+@media(max-width: 1350px) {
+    .communication__description {
+        max-width: 1200px;
+        background-size: 1200px 310px;
+
+    }
+
+    .communication_title {
+        margin: 0 0 0 250px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 380px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 10px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .communication__description {
+        max-width: 1120px;
+        background-size: 1120px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 340px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 20px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 200px;
+    }
+}
+
+@media(max-width: 1220px) {
+    .communication__description {
+        max-width: 1070px;
+        background-size: 1070px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 310px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 20px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 175px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .communication__description {
+        max-width: 1000px;
+        height: 280px;
+        background-size: 1000px 290px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 280px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 20px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 150px;
+    }
+}
+
+@media(max-width: 1100px) {
+
+    .communication__description {
+        max-width: 950px;
+        background-size: 950px 310px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 10px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 250px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 110px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .communication__description {
+        max-width: 890px;
+        background-size: 890px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 220px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 10px;
+    }
+
+    .communication-title {
+        margin: 0 0 0 100px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .communication__description {
+        max-width: 840px;
+        background-size: 840px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 195px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 10px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 70px;
+    }
+}
+
+@media(max-width: 914px) {
+    .communication__description {
+        max-width: 800px;
+        background-size: 800px 310px;
+    }
+
+    .communication__title {
+        font-size: 25px;
+    }
+
+    .communication__logo {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 225px;
+    }
+
+    .communication__phone {
+        margin: 0 0 0 10px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 80px;
+        width: 600px;
+    }
+}
+
+@media(max-width: 900px) {
+    .communication__description {
+        max-width: 780px;
+        height: 250px;
+        background-size: 780px 310px;
+    }
+}
+
+@media(max-width: 870px) {
+    .communication__description {
+        max-width: 750px;
+        background-size: 750px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 200px;
+    }
+}
+
+@media(max-width: 830px) {
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 185px;
+    }
+
+    .communication__description {
+        max-width: 720px;
+        background-size: 720px 310px;
+    }
+
+    .communication__phone {
+        margin: 0;
+    }
+
+    .communication_title {
+        margin: 0 0 0 90px;
+        width: 550px;
+    }
+
+    .communication__title {
+        font-size: 23px;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .communication__description {
+        max-width: 680px;
+        background-size: 680px 310px;
+    }
+
+    .communication__phone {
+        font-size: 30px;
+    }
+
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 165px;
+    }
+
+
+    .communication_title {
+        margin: 0 0 0 65px;
+        width: 550px;
+    }
+}
+
+@media(max-width: 740px) {
+    .communication__description {
+        max-width: 630px;
+        background-size: 630px 310px;
+    }
+
+    .communication__logo {
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
+
+    .communication__logo:hover {
+        width: 50px;
+    }
+
+
+    .communication__phone {
+        margin: 0 30px 0 0;
+        font-size: 28px;
+    }
+
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 165px;
+    }
+
+
+    .communication_title {
+        margin: 0 0 0 65px;
+        width: 500px;
+    }
+
+    .communication__title {
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width: 680px) {
+    .communication__description {
+        max-width: 630px;
+        background-size: 630px 310px;
+    }
+
+    .communication__phone {
+        margin: 0 0px 0 0;
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 650px) {
+    .communication__description {
+        max-width: 550px;
+        background-size: 550px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 150px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 20px;
+    }
+
+    .communication__logo {
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    .communication__phone {
+        margin: 0 0px 0 0;
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width: 570px) {
+
+    .communication__description {
+        max-width: 500px;
+        background-size: 500px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 125px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 20px;
+        width: 450px;
+    }
+
+    .communication {
+        padding-top: 20px;
+    }
+
+    .communication__title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .communication__phone {
+        margin: 0 0px 0 0px;
+        font-size: 23px;
+    }
+
+    .communication__description {
+        max-width: 490px;
+        background-size: 490px 310px;
+    }
+
+    .iqons__communication {
+        margin-top: 40px;
+        padding-left: 120px;
+    }
+}
+
+@media (max-width: 490px) {
+
+    .communication__description {
+        max-width: 450px;
+        height: 240px;
+        background-size: 450px 250px;
+        background-image: url(../public/images/xxx_1.jpg);
+    }
+
+    .communication {
+        padding-top: 10px;
+    }
+
+    .communication__phone {
+        margin: 0 0px 0 0px;
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    .iqons__communication {
+        margin-top: 30px;
+        padding-left: 120px;
+        width: 300px;
+        padding-left: 90px;
+    }
+
+    .communication__logo {
+        width: 45px;
+        height: 45px;
+        margin: 0 5px;
+    }
+
+    .communication__logo:hover {
+        width: 55px;
+    }
+
+    .communication__title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 50px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .communication__description {
+        max-width: 450px;
+        height: 260px;
+        background-size: 450px 310px;
+    }
+
+    .communication {
+        padding-top: 10px;
+    }
+
+    .communication__phone {}
+
+    .iqons__communication {
+        margin-top: 30px;
+        padding-left: 120px;
+        width: 300px;
+        padding-left: 90px;
+    }
+
+    .communication__logo {
+        width: 45px;
+        height: 45px;
+        margin: 0 5px;
+    }
+
+    .communication__logo:hover {
+        width: 55px;
+    }
+}
+
+@media (max-width: 450px) {
+    .communication_title {
+        margin: 0 0 0 45px;
+        width: 350px;
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .communication__title {
+        font-size: 20px;
+        line-height: 22px;
+        ;
+    }
+
+    .communication__description {
+        max-width: 435px;
+        height: 230px;
+        background-size: 435px 240px;
+    }
+
+    .iqons__communication {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 440px) {
+    .communication__description {
+        max-width: 350px;
+        height: 200px;
+        background-size: 350px 210px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 45px;
+        width: 260px;
+    }
+
+    .communication__phone {
+        margin: 0 0px 0 0px;
+        font-size: 23px;
+        padding-top: 20px;
+    }
+
+    .iqons__communication {
+        margin-top: 20px;
+        padding-left: 63px;
+    }
+
+    .communication__logo {
+        width: 35px;
+        height: 35px;
+        margin: 0 5px;
+    }
+
+    .communication__logo:hover {
+        width: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .communication__description {
+        max-width: 320px;
+        height: 150px;
+        background-size: 320px 160px;
+    }
+
+    .communication_title {
+        margin: 0 0 0 35px;
+        width: 250px;
+    }
+
+    .communication__title {
+        font-size: 19px;
+        line-height: 22px;
+        letter-spacing: -0.04em;
+        font-weight: 400;
+    }
+
+    .communication__phone {
+        margin: 0 0px 0 0px;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .communication__logo {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+    }
+
+    .iqons__communication {
+        margin-top: 15px;
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .communication__description {
+        max-width: 290px;
+        height: 160px;
+        background-size: 290px 170px;
+    }
+
+    .communication__title {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.04em;
+    }
+
+    .communication_title {
+        margin: 0 0 0 35px;
+        width: 220px;
+    }
+
+    .iqons__communication {
+        margin-top: 15px;
+        padding-left: 45px;
+    }
+
+}
