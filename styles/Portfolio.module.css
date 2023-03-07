@@ -16,7 +16,7 @@
 
 @media(max-width: 660px) {
     .slider {
-        width: 297px;
+        width: 310px;
         height: 400px;
         perspective: 1000px;
         margin: 0 auto;
@@ -27,7 +27,7 @@
 
 @media(max-width: 600px) {
     .slider {
-        width: 267px;
+        width: 280px;
         height: 380px;
         perspective: 1000px;
         margin: 0 auto;
@@ -38,7 +38,7 @@
 
 @media(max-width: 350px) {
     .slider {
-        width: 237px;
+        width: 250px;
         height: 350px;
         perspective: 1000px;
         margin: 0 auto;

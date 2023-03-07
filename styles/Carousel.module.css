@@ -146,6 +146,11 @@
         background-position: center;
     }
 
+    .slider__image_active {
+        width: 310px;
+        height: 400px;
+    }
+
 }
 
 @media(max-width: 600px) {
@@ -163,6 +168,11 @@
         background-position: center;
     }
 
+    .slider__image_active {
+        width: 280px;
+        height: 380px;
+    }
+
 }
 
 @media(max-width: 500px) {
@@ -172,7 +182,6 @@
     }
 
 }
-
 
 
 @media(max-width: 350px) {
@@ -187,6 +196,11 @@
     .slider_portfolio {
         background-size: cover;
         background-position: center;
+    }
+
+    .slider__image_active {
+        width: 250px;
+        height: 350px;
     }
 
 }
