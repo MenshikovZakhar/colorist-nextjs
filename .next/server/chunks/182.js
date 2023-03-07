@@ -301,7 +301,7 @@ function Emailjs({ isOpen , onClose  }) {
                                 placeholder: "Введите Ваш телефон",
                                 value: toSend.phone || "",
                                 onChange: handleChange,
-                                pattern: "[0-9]{11}",
+                                pattern: "^((8|\\+7)[\\- ]?)?\\(?\\d{3,5}\\)?[\\- ]?\\d{1}[\\- ]?\\d{1}[\\- ]?\\d{1}[\\- ]?\\d{1}[\\- ]?\\d{1}(([\\- ]?\\d{1})?[\\- ]?\\d{1})?$",
                                 required: true
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
