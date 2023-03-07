@@ -259,7 +259,7 @@ function Emailjs({ isOpen , onClose  }) {
                             display: "none"
                         },
                         className: (Emailjs_module_default()).info_image,
-                        src: imgAcceptAuth ? imgAcceptAuth : "/images/success.png",
+                        src: imgAcceptAuth,
                         alt: "logo",
                         width: 150,
                         height: 150

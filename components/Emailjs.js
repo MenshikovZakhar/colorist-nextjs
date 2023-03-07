@@ -89,7 +89,7 @@ function Emailjs({ isOpen, onClose, }) {
                 }
 
                 <Image onLoad={() => setIsLoading(true)} style={isLoading ? {} : { display: 'none' }}
-                    className={styles.info_image} src={imgAcceptAuth ? imgAcceptAuth : '/images/success.png'}
+                    className={styles.info_image} src={imgAcceptAuth}
                     alt='logo'
                     width={150}
                     height={150}

@@ -40,6 +40,7 @@ function Price() {
                 />
                 <main className={styles.price}>
                     <ScrollToTop smooth className={styles.scrolltop} viewBox="0 0 24 24" />
+                    <Consultation />
                     <div className={styles.price_description}>
                         <div className={styles.price__description}>
 
