@@ -9,7 +9,7 @@
 ## :memo: Описание
 Перенос сайта colorist c Create-React-App на NextJS. Сайт с адаптивным дизайном выполненый для парикмахера-колориста. В проекте были использованы функциональные компоненты, state переменные и управление эффектами useEffect.
 
-## [Ссылка на проект](https://menshikovzakhar.github.io/colorist/)
+## [Ссылка на проект](https://valeria-colorist.ru/) 
 
 ## :hammer: Стэк технологий
 1. HTML,
